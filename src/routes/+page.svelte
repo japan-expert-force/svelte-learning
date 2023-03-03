@@ -17,9 +17,3 @@
 <SlotTest>
     hoge
 </SlotTest>
-
-<style lang="sass">
-    :global(body)
-        color: white
-        background: linear-gradient(to right,rgb(223,95,255),rgb(78,124,255))
-</style>
