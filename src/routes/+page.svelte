@@ -1,5 +1,6 @@
 <script lang="ts">
     import Count from '$lib/Count.svelte';
+    import SlotTest from '$lib/SlotTest.svelte';
 
     let value = 'Hello, world!';
 </script>
@@ -12,6 +13,10 @@
     <input bind:value={value} />
     {value}
 </div>
+
+<SlotTest>
+    hoge
+</SlotTest>
 
 <style lang="sass">
     :global(body)
