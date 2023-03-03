@@ -1,16 +1,12 @@
 <script lang="ts">
-    let count = 0;
-
-    function onClick() {
-        count++;
-    }
+    import Count from '$lib/Count.svelte';
 
     let value = 'Hello, world!';
 </script>
 
 <h1>Home</h1>
 
-<button on:click={onClick}>クリック数: {count}</button>
+<Count />
 
 <div>
     <input bind:value={value} />
