@@ -1,0 +1,22 @@
+<script lang="ts">
+    import Count from '$lib/Count.svelte';
+    import Mermaid from '$lib/Mermaid.svelte';
+</script>
+
+# hoge
+
+hoge fuga
+
+<Count />
+
+![](./scp.png)
+
+<Mermaid>
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+</Mermaid>
